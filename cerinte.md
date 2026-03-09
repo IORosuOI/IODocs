@@ -35,7 +35,7 @@ Aplicație pentru gestionarea și editarea documentelor (Document Management Sys
         -Cautare globala si filtrare dupa tag-uri sau data modificarii
 
         -Sistem de roluri pentru utilizatori (Admin, Editor, Viewer)
-        
+
         -Exportarea documentelor in formate multiple (PDF, TXT)
 
 >
@@ -48,8 +48,11 @@ Analiza fluxurilor de utilizare pentru crearea si partajarea documentelor.
 - Specificarea cerințelor nefuncționale.
 >
     -Interfata intuitiva si minimalista (Clean UX)
+
     -Sincronizarea schimbarilor in timp real (sub 2 secunde)
+
     -Securitate prin criptare si autentificare multi-factor (2FA)
+    
     -Disponibilitatea vizualizarii documentelor in mod offline
 >
 
