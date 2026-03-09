@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ro">
+<head>
+    <title>IODocs - Settings (HTML 4.01)</title>
+</head>
+<body>
+    <center>
+        <h1><a href="index.html" name="settings_top">IODOCS</a> - User Settings</h1>
+        <hr>
+
+        <form action="save_settings.php" method="post">
+            <table border="1" cellpadding="10" width="80%" bgcolor="#fdfdfd">
+                <tr>
+                    <th colspan="3" bgcolor="#dddddd"><h2>Account Preferences</h2></th>
+                </tr>
+                <tr>
+                    <td rowspan="2" valign="top" align="center" width="20%" bgcolor="#eeeeee">
+                        <img src="user_avatar.png" alt="User" width="100" height="100" title="Profile Picture"><br>
+                        <strong>User Admin</strong>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend><b>Display</b></legend>
+                            <p>
+                                Font Size: <input type="text" name="f_size" size="5" maxlength="2" value="14">
+                            </p>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend><b>Notifications</b></legend>
+                            <input type="checkbox" name="n1" checked> Desktop<br>
+                            <input type="checkbox" name="n2"> Email
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label>Email Address:</label> 
+                        <input type="text" name="mail" size="30" value="user@scs.ubbcluj.ro">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1" bgcolor="#eeeeee" align="center"><b>Status: Active</b></td>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Save Changes">
+                        <input type="reset" value="Clear" disabled>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
