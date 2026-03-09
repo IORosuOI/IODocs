@@ -23,13 +23,21 @@ Aplicație pentru gestionarea și editarea documentelor (Document Management Sys
 - Stabilirea temei și definirea funcționalităților majore (6–10).
 >Tema: Aplicatie de management a documentelor (docsIO)
         -Editor minimalist de text cu functii de auto-salvare
+
         -Sistem de organizare ierarhica (Foldere si Sub-foldere)
+
         -Partajarea documentelor cu permisiuni specifice (Citire/Editare)
+
         -Sistem de versionare si recuperare (Undo/Redo) la nivel de continut
+
         -Cos de gunoi (Trash) pentru stergere logica si recuperare
+
         -Cautare globala si filtrare dupa tag-uri sau data modificarii
+
         -Sistem de roluri pentru utilizatori (Admin, Editor, Viewer)
+        
         -Exportarea documentelor in formate multiple (PDF, TXT)
+
 >
 
 **Laboratorul 2**
